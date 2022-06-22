@@ -6,12 +6,49 @@
     border: 1px none black;
 }
 
+.container {
+   max-width: 757px;
+   margin: auto; 
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: normal;
-  background: #f1f1f1;
+  background: #fff;
   color: #0f141e;
+}
+
+.table {
+	width: 100%;
+	margin-bottom: 40px;
+	border-collapse: collapse; 
+
+}
+.table th {
+	font-weight: bold;
+	padding: 5px;
+	border: none;
+   text-align: left;
+   color: #fff;
+   letter-spacing: 2px;
+   background:#095a9b;
+
+}
+.table td {
+	border: 1px solid #dddddd;
+	padding: 7px;
+   width: 0px;
+}
+.table tr td:first-child, .table tr th:first-child {
+	border-left: none;
+}
+.table tr td:last-child, .table tr th:last-child {
+	border-right: none;
+}
+
+.table tr:hover td {
+	background: #dddddd;
 }
 
 a {
@@ -19,16 +56,11 @@ a {
   display: block;
   font-weight:bold;
   padding: 10px 10px 10px 10px;
-  margin: 20px 10px 10px 10px;
+  margin: 20px 10px 20px 10px;
 }
 
 b{
     font-weight:bold;
-}
-
-.container {
-    max-width: 750px;
-    margin: auto; 
 }
 
 .box{
@@ -65,6 +97,15 @@ b{
     text-align: center;
  }
 
+ .text-left{
+   text-align: left;
+}
+
+ .text-red{
+   color: red;
+   font-weight:bold;
+}
+
  h2{
     color: #fff;    
     background-color: #095a9b;
@@ -73,8 +114,32 @@ b{
     text-align: center;
     letter-spacing: 2px;
  }
- 
- p{
+
+.main-header{
+   margin-top: -20px;
+   color: black;
+   background-color: #fff;
+   border-style: none;
+}
+
+.table-header{
+   margin-top: 20px;
+   margin-bottom: 0px;
+}
+
+.top-header{
+   display: block;
+   position: absolute;
+   margin-top: 100px;
+   margin-left: 10px;
+   border: none;
+   z-index: 3;
+   width: 200px;
+   height: 100px;
+   padding-top: 25px;
+}
+
+p{
     color: #0f141e;    
     margin-top: 10px;
     text-align:justify;
@@ -83,6 +148,11 @@ b{
  .btn {
    border: solid;
    cursor: pointer;
+ }
+
+ .box-center{
+   margin: auto;
+   display: flex;
  }
  
  .btn:hover {
