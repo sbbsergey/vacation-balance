@@ -70,7 +70,7 @@ a:hover {
 
  h2{
     color: #fff;    
-    background-color: rgb(29, 72, 146);
+    background-color: #095a9b;
     margin-bottom: 20px;
     border-style: solid;
     text-align: center;
@@ -81,4 +81,17 @@ a:hover {
     color: #0f141e;    
     margin-top: 10px;
     text-align:justify;
+ }
+
+ .btn {
+   background: #111;
+   padding: 15px 20px;
+   color: #fff;
+   border: none;
+   font-family: inherit;
+   cursor: pointer;
+ }
+ 
+ .btn:hover {
+   opacity: 0.8;
  }
