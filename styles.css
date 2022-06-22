@@ -15,18 +15,15 @@ body {
 }
 
 a {
-  color: rgb(22, 69, 158);
-  padding-top: 20px;
+  color: #095a9b;
   display: block;
   font-weight:bold;
+  padding: 10px 10px 10px 10px;
+  margin: 20px 10px 10px 10px;
 }
 
 b{
     font-weight:bold;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 .container {
@@ -60,8 +57,8 @@ a:hover {
  }
 
  IMG.click-image{
-    margin-left: 10px;
-    margin-top: 40px;
+    margin-left: 5px;
+    margin-top: 60px;
  }
 
  .text-center{
@@ -76,7 +73,7 @@ a:hover {
     text-align: center;
     letter-spacing: 2px;
  }
-
+ 
  p{
     color: #0f141e;    
     margin-top: 10px;
@@ -84,14 +81,21 @@ a:hover {
  }
 
  .btn {
-   background: #111;
-   padding: 15px 20px;
-   color: #fff;
-   border: none;
-   font-family: inherit;
+   border: solid;
    cursor: pointer;
  }
  
  .btn:hover {
-   opacity: 0.8;
+   border: solid;
+   background-color: #095a9b;
+   color: #fff;    
+  
+ }
+
+ .text-spacing2{
+   letter-spacing: 2px;
+ }
+
+ .text-spacing1{
+   letter-spacing: 1px;
  }
